@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon-blue.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>TheCoffeDev Website</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <!-- Linking Font Aweson for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="logo">
+                <img src="img/coffe-white.png" alt="logo">
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                
+                 <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+                 <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <!-- Header / Navbar -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+
+            <div class="section-content">
+
+                <div class="hero-details">
+                    <h2 class="title">COFFE. CODE. COMMUNITY</h2>
+                    <p class="description">More than just a coffee shop, we are the meeting point for restless minds. The Coffee Dev is your environment..</p>
+
+                    <div class="buttons">
+                        <a href="#" class="button order-now">ORDER YOURS NOW</a>
+                        <a href="#" class="button conect-us">CONECT US</a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <img src="img/coffe-yellow.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                
+                <div class="about-image-wrapper">
+                    <img src="img/blue-coffe.png" alt="">
+                </div>
+
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    
+                    <p class="text">
+                        The Coffee Dev was born between late-night coding sessions and essential cups of coffee. 
+                        We realized every great idea starts with a cup. We created a space where quality coffee meets creativity.
+                    </p>
+
+                    <!-- AGORA FICA ABAIXO DO TEXTO -->
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="img/menu-01.png" alt="Bug Fix" class="menu-image">
+                        <h3 class="name">Bug Fix Espresso</h3>
+                        <p class="text">A strong double shot to fix your code faster.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="img/menu-02.png" alt="Late Night Latte">
+                        <h3 class="name">Late Night Latte</h3>
+                        <p class="text">Extra caffeine for long coding sessions.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="img/menu-03.png" alt="Strawberry Juice">
+                        <h3 class="name">Strawberry Juice</h3>
+                        <p class="text">Sweet and refreshing with real strawberries.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="img/menu-07.png" alt="Full Stack Cake">
+                        <h3 class="name">Full Stack Cake</h3>
+                        <p class="text">Layers of flavor working perfectly together, just like your code.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="img/menu-08.png" alt="404 Burger Not Found">
+                        <h3 class="name">404 Burger Not Found</h3>
+                        <p class="text">So good, you’ll never want to lose it.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="img/menu-04.png" alt="Cheese Croissant">
+                        <h3 class="name">Cheese Croissant</h3>
+                        <p class="text">Warm croissant filled with melted cheese.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="img/menu-05.png" alt="Strawberry Ice Cream">
+                        <h3 class="name">Strawberry Ice Cream</h3>
+                        <p class="text">Light, sweet, and refreshing.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="img/menu-06.png" alt="Cookies & Cream">
+                        <h3 class="name">Cookies & Cream</h3>
+                        <p class="text">Vanilla ice cream mixed with crunchy cookie pieces.</p>
+                    </li>
+                </ul>
+            </div>
+
+        </section >
+        
+        <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title">Testimonials</h2>
+
+            <div class="swiper">
+
+                <ul class="swiper-wrapper">
+
+                    <li class="testimonial swiper-slide">
+                        <img src="img/test-01.jpg" class="user-image">
+                        <h3 class="name">Emily Carter</h3>
+                        <p class="feedback">“I came for the coffee, stayed for the community.”</p>
+                    </li>
+
+                    <li class="testimonial swiper-slide">
+                        <img src="img/test-02.jpg" class="user-image">
+                        <h3 class="name">Lucas Andrade</h3>
+                        <p class="feedback">“The perfect place to code and relax. The coffee keeps me focused for hours!”</p>
+                    </li>
+
+                    <li class="testimonial swiper-slide">
+                        <img src="img/test-03.jpg" class="user-image">
+                        <h3 class="name">Mariana Oliveira</h3>
+                        <p class="feedback">“This place feels like a second home for developers.”</p>
+                    </li>
+
+                    <li class="testimonial swiper-slide">
+                        <img src="img/test-04.jpg" class="user-image">
+                        <h3 class="name">Kevin Lee</h3>
+                        <p class="feedback">“Fixed my bugs and my mood.”</p>
+                    </li>
+
+                    <li class="testimonial swiper-slide">
+                        <img src="img/test-05.jpg" class="user-image">
+                        <h3 class="name">Ana Costa</h3>
+                        <p class="feedback">“Amazing atmosphere. You can actually feel the creativity here.”</p>
+                    </li>
+
+                </ul>
+
+                <!-- Controles -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+        </section>
+
+        <section class="gallery-section" id="gallery">
+
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="img/gallery-01.jpg" alt="gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="img/gallery-02.jpg" alt="gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="img/gallery-03.jpg" alt="gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="img/gallery-04.jpg" alt="gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="img/gallery-05.jpg" alt="gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="img/gallery-06.jpg" alt="gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+
+
+        </section>
+
+        <section class="contact-section" id="contact">
+            <h2 class="section-title"> Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>Av. Brig. Faria Lima, 2232 - Jardim Paulistano, São Paulo - SP, 01451-000</p>
+                    </li>
+
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>info@thecoffedev</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(21) 9888-9787</p>
+                    </li>
+
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                    </li>
+
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>sunday: Closed</p>
+                    </li>
+
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.thecoffecod.com</p>
+                    </li>
+                </ul>
+
+
+                <form action="#" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" class="form-input" required>
+                    <input type="email" name="email" placeholder="Your Email" class="form-input" required>
+                    <textarea name="message" placeholder="Your Message" class="form-input" required></textarea>
+                    <button type="submit" class="submit-button">Submit</button>
+
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2026 The Coffee Dev. All rights reserved.</p>
+
+                <div class="social-link-list">
+                    <a href="#" class="social-link">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="separator">. </span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+
+            
+            </div>
+
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
